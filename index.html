@@ -3,7 +3,9 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
-    <a-video src="magic-book.mp4" autoplay loop="true"></a-video>
+      <a-assets>
+    <video id="uuu" autoplay loop="true" src="magic-book.mp4"></video>
+  </a-assets>
     <a-marker-camera preset='hiro'></a-marker-camera> 
   </a-scene>
 </body>
